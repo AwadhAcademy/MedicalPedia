@@ -1,0 +1,122 @@
+.contact_nav {
+    background: #224891;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upper_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper_nav i {
+    color: white;
+    align-self: center;
+}
+
+.upper_nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.lover_nav {
+    height: 95vh;
+    background: url(../photos/doctor.jpg);
+    background-size: cover;
+}
+
+.HELLO {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.HELLO h2 {
+    width: 40%;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: fantasy;
+    background: #ffffff8f;
+}
+
+.nav_items_list {
+    width: 60%;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #ffffff8f;
+}
+
+.nav_items_list a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.appointment {
+    width: 44vw;
+    margin-top: 5%;
+    height: 54vh;
+    margin-left: 4%;
+}
+
+.appointment p {
+    font-weight: bolder;
+    color: #224891;
+    font-size: 1.1rem;
+    font-family: fangsong;
+}
+
+.appointment h2 {
+    font-weight: bolder;
+    color: #ffffffa8;
+    font-size: 4.1rem;
+    font-family: inherit;
+}
+
+.btn_make_appointment {
+    color: #fff;
+    background-color: #0d6efd;
+    /* border-color: #0d6efd; */
+    width: 26vw;
+    border-radius: 31px;
+}
+
+.covid_data {
+    /* border: 2px solid; */
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.covid_test {
+    /* border: 1px solid red; */
+    height: 100vh;
+    width: 50vw;
+}
+
+.covid_test h1 {
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    top: 23%;
+    color: #224891;
+}
+
+.covid_test p {
+    position: relative;
+    top: 15%;
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.API_data {
+    height: 100vh;
+    width: 50vw;
+    /* border: 1px solid greenyellow; */
+}
