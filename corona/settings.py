@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-%h29qcf!h8)0w9kbncpo5qa=f7ol$crg=i=x^g^h6^%p9vw5e-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','medicalpedia.herokuapp.com']
 
